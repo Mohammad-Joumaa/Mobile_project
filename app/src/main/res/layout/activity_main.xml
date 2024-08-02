@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow>
+
+        <TextView></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/we"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#70FBFBFB"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="15dp"
+            android:hint="@string/un"
+            android:textColorHint="@color/white"
+            android:textSize="30dp"
+            ></EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#70FBFBFB"
+            android:drawableLeft="@drawable/ic_baseline_password_24"
+            android:drawablePadding="15dp"
+            android:hint="@string/pass"
+            android:textColorHint="@color/white"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            ></EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="45dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/log"
+            android:textSize="20dp">
+
+        </Button>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/cl"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#F2E160"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="im"></TextView>
+    </TableRow>
+
+
+</TableLayout>

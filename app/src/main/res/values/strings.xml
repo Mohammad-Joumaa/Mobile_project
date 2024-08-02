@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bank_System</string>
+    <string name="we">      Welcome To
+                   NJ Bank</string>
+    <string name="un">username</string>
+    <string name="pass">password</string>
+    <string name="log">LOGIN</string>
+    <string name="cl">    Im a client</string>
+    <string name="sur">  We are happy to tell you about
+    our services
+       *We give 5% interest on
+         your money
+       *Only 9% rate of benefit
+         on loans
+       *Visa card and wireless
+         pay
+       *Non benefit loans for
+         students</string>
+    <string name="bkbt">Back</string>
+    <string name="happy">Happy Costumers</string>
+    <string name="os">Our Services --></string>
+    <string name="title_activity_employee">employee</string>
+</resources>
